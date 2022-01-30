@@ -1,0 +1,154 @@
+body{
+    color: hsl(0, 0%, 95%);
+    background-color: white;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-1,
+.card-2,
+.card-3{
+    
+    word-wrap: break-word;
+    padding: 20px;
+    font-size: 13px;
+    min-width: 5rem;
+    padding-right: 30px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+
+}
+
+
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 3% 3% 0% 0%;
+    
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%); 
+    border-radius: 0% 0% 3% 3%;
+}
+
+.paragraph{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 100;
+}
+
+
+@media screen and (min-width:700px){
+    .container{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+    }
+
+    .card-1{
+        border-radius: 3%  0% 0% 3%;
+        max-width: 10rem;
+        margin: 0px;
+    }
+
+    .card-2{
+        max-width: 10rem;
+        margin: 0px;
+    }
+    .card-3{
+        border-radius: 0% 3% 3% 0% ; 
+        max-width: 10rem;
+        margin: 0px;
+    }    
+}
+
+
+.space-edit{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* buttons */
+.my-button-1 {
+	background-color: white;
+	border-radius:35px;
+	border: 2px solid hsl(31, 77%, 52%);
+	display:inline-block;
+	cursor:pointer;
+	color: hsl(31, 77%, 52%);
+	font-size:12px;
+    font-weight: 600;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.my-button-1:hover {
+	background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
+/* .my-button-1:active {
+	position:relative;
+	top:1px;
+} */
+
+
+
+.my-button-2 {
+	background-color: white;
+	border-radius:35px;
+	border: 2px solid hsl(184, 100%, 22%);
+	display:inline-block;
+	cursor:pointer;
+	color: hsl(184, 100%, 22%);
+	font-size:12px;
+    font-weight: 600;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.my-button-2:hover {
+	background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+/* .my-button-2:active {
+	position:relative;
+	top:1px;
+} */
+
+
+
+.my-button-3 {
+	background-color: white;
+	border-radius:35px;
+	border: 2px solid hsl(179, 100%, 13%);
+	display:inline-block;
+	cursor:pointer;
+	color: hsl(179, 100%, 13%);
+	font-size:12px;
+    font-weight: 600;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.my-button-3:hover {
+	background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+}
+/* .my-button-3:active {
+	position:relative;
+	top:1px;
+} */
+
